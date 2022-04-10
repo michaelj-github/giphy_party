@@ -1,9 +1,11 @@
 body {
-  background-color: #FF66CC;
+  /* background-color: #FF66CC; */
+  background-color: #FFD700;
 }
 
 .theFormDiv {
-  background-color: #4666FF;
+  /* background-color: #4666FF; */
+  background-color: #0057B7;
   text-align: center;
   height: 100%;
   width: 800px;
