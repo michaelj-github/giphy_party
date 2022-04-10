@@ -1,0 +1,48 @@
+body {
+  background-color: #FF66CC;
+}
+
+.theFormDiv {
+  background-color: #4666FF;
+  text-align: center;
+  height: 100%;
+  width: 800px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%)
+    /* This will center horzontally and vertically if left and top are 50%*/
+    /* transform: translate(-50%, -50%) */
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.theGiphys {
+  text-align: left;
+}
+
+.aGiphy {
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.aGiphy:hover {
+  background-color: aqua;
+}
+
+.removeAll {
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.removeAll:hover {
+  background-color: red;
+}
